@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #B45F04; /* Terracotta */
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #FFF8DC; /* Cream */
+  }
+  
+  nav a:hover {
+    background-color: #8B4513; /* Brown */
+    color: #FFF8DC; /* Cream */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+  
+  h1 {
+    color: #800000; /* Deep Red */
+  }
+  
+  p {
+    color: #556B2F; /* Olive Green */
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="time"],
+  input[type="number"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #B45F04; /* Terracotta */
+  }
+  
+  input[type="submit"] {
+    background-color: #B45F04; /* Terracotta */
+    color: #FFF8DC; /* Cream */
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #8B4513; /* Brown */
+  }
+  
